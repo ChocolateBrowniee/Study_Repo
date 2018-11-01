@@ -1,0 +1,476 @@
+`VISUAL DESIGN ISSUES (OBSERVED PATTERNS)
+  PEOPLE NOT SEEING WHAT TO DO
+  PEOPLE NOT UNDERSTANDING WHAT THEY SEE
+  PEOPLE EXPECTING SOMETHING DIFFERENT THAN WHAT THEY SEE
+
+VISUAL DESIGN TOOLS
+
+
+
+CONSISTENCY
+* IN ORDER FOR COMMUNICATION TO OCCUR, AN APP MUST HAVE PATTERNS OR CONVENRIONS WITH SHARED OR DISCERNABLE MEANING
+* CONSISTENCY IS THE KEY TO THE INTERFACE FUNCTIONING AS A SYSTEM AND A VISUAL LANGUAGE
+* ESTABLISHING CONSISNTENCY MEANS SETTING AND MAINTAINING EXPECTIATIONS BY USING ELEMENTS PEOPLE ARE FAMILAR WITH
+* ESTABISHING
+
+
+USER EXPECTATIONS PLAY A ROLE IN PERCEPTION OF CONSISTNENCY
+  BASE DECISIONS ON WHAT USERS EXPECTS AS WELL AS APP GOALS
+
+EXTERNAL CONSISNTENCY
+  CONSISTENCY : PLACE ELEMENTS SIMILARLY FROM SCREEN TO SCREEN
+  ARE THE APPLICATION'S DESIGN, CONTENT AND BEHAVIOR SIMILAR TO OTHER APPLICATIONS USED BY THE SAME AUDIENCE
+  IS YOUR APPLCATION PART OF A FAMILY OR SUITE
+  ARE THE PARTICULAR UI PATTERNS THAT YOUR USERS EXPECT BASED ON USING OTHER APPS
+
+
+INTERNAL CONSISTNECY
+  ESATBLISH PATTERNS FROM YOUR APP AND USE THEM CONSISTENTLY TO CREATE VISUAL LANGUAGE
+
+
+HIERARCHY
+* VISUAL HIERARCHY IS THE PERCEPTION AND INTERPRETATION OF THE RELATIVE IMPORTANCE OF OBJECTS
+* CALL ATTENTION TO MOST IMPORTANT ARES TO GUIDE THE EYE
+
+DEFINING DIFFERENCES
+  - CONSISTENCY IS ABOUT MAKING THINGS LOOK AND BEHAVE THE SAME TO TAKE ADVANTAGE OF USER FAMILIARTY AND EXPECTIATIONS
+  - HIERARCHY IS ABOUT INDICATING DIFFERENCES THAT HELP PEOPLE
+
+
+  LAYOUT
+    - SCRREN SIZE
+    - POSITION
+    - WHITE SPACE AND MARGIN
+    - PROXIMITY SCALE AND ALIGNMENT (TALKING ABOUT THE DISTANCE OF THE ELEMENTS, THINGS ARE RELATED SHOULD BE CLOSE TOGETHER )
+    - GIRD
+    - TEMPLATES
+
+
+
+  COLOR
+    PROVOKES EMOTIONAL RESPONSE
+
+      HELPS PEOPLE TO FIGURE OUT
+        WHERE TO LOOK
+        WHAT TO DO
+      HELP AND APPLICATION STAND OUT
+      COMMUNICATING WITH COLOR IS A BALANCING ACT THAT CAN BE BEST ACHEIVED WHEN CONTEXT OF USE, PHYSICAL USER CHARACTERISTICS AUDIENCE CULTURE ARE KNOWN
+
+      COLOR CAN HELP ESTABLISH AND CONVEY HUERACHY
+        WITH LAYOUT- HELP TELL USERS WHAT TO DO
+
+------------------------------------- 4th oct ----------------------
+
+TIME SCALE OF HUMAN ACTION
+	- Descriptive model of the human
+		- biological band (10^-4 <-> 10^-2 seconds) neuron, brain
+		- cognitive band (10^-1 <-> 10 seconds) unit tasks, deliberate acts
+		- rational band (10^2 <-> 10^4 seconds) task in general
+		- social band (10^5 <-> 10^7 seconds )
+	- Time is ordered by seconds and appears on a logarithm scale
+
+
+** the most common dependent variable in experimental research in HCI is time
+
+
+HUMAN FACTOR
+
+HUMAN-----------------INTERFACE------------------COMPUTER
+     |<----- Sensors <----|---- Displays <----|
+     |			  |    		      |
+BRAIN|			  |		      |MACHINE STATE
+     |			  |		      |
+     |-----> Responders --|---> Controls ---->|
+
+
+	-> the human operator monitors the state of the computer through
+           sensors and displays and controls the computer through responders
+	   and controls
+
+	->  the dashed vertical line is the interface where this takes place
+
+
+
+SENSORS
+	5 classical human sensors
+		- sight ( information from the environment perceived by the eye)
+		  -> frequency (perception of color )
+		  -> intensity (amount of light / brightness)
+		  -> Fixations and saccades (the duration of lookig at something)
+		- hearing
+		  -> loudness (sound pressure messured in decibel)
+		  -> pitch (sharpness of the sound Hertz)
+		  -> timbre (harmonic structure of sounds )
+		- touch
+		- taste
+		- smell
+
+
+
+COGNITION
+	SENSORY STIMULUS -> COGNITIVE OPERATION -> MOTOR RESPONSE
+
+the brain
+	store retain and recall infomration
+	useful for non-spontaneous decision
+	short term working memory
+
+
+
+
+mainifesations
+	- reaction time
+	  - delay between the occurances of a single fixed stimulus
+	- visual search
+	  - scans a collection of items searching for a desired item
+	- skilled behavior
+	  - a sensory stimulus imitates a simple cognitive oeration which is followed by a simple motor response
+	- attention
+	  - divided attention -> concentrating on doing more than one task at a time
+	  - selected attention -> attending to one task to the exclusion of others
+	- human error
+	  - mishaps and miscues in human performace
+
+
+
+11 October 2018
+
+Personality
+	- refers to impression formed based on appearance and behavior, a conecept that applies to applications as well as people
+	- visceral design
+		- appeareance
+	- behavirial
+		- pleasure and effectiveness of use
+	- reflective design
+		- self image personal satisfaction and memories
+
+affordance
+	- how to make unfamiliar situations affordable
+
+constrains are powerful cues limiting the set of actions. Through the use of constrains in design, it readily allows
+
+physical constrains -> rely on properties of the physical world
+			- dials vs buttons vs silders
+cultural constrains -> rely on socially learned behaviors
+			- websites that uses cutural guiding thier user
+semantic constrains -> rely on intrisic meaning
+			- objects that shows implicit meaning
+logical constrains -> rely on trial and reasoning
+
+--- imposing these constrains prevents error and guide uses towards correct desired or useful behavior----
+
+
+guiding interactions with constrains
+	forcing fucntions
+		e.g require logins to access content
+	interlocks
+		operations to take place in proper sequence
+		e.g forms, forcing things to happen in a certain sequence
+	lock in
+		keeps an operation active, preventing someone from prematurely stopping it
+		e.g Gmail checks if an attachment is attached before sending
+	lock out
+		keeps someone in a place or prevents an action until the desired operations have been done
+
+
+feedback
+	mention two reasons that make sound a challenging form of feedback
+		e.g cant proceed without typing in a valid email address
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Describe what is meant by internal and external consistency. Give an example of both kinds of
+consistency in the context of a word processing application (4 points)
+ 	(1 point) internal consistency -> internal consistency would mean that the overall design in the word application itself would be the same
+	(1 point) external consistency -> external consistency would mean that the overall designs would be similar with other word processing application
+	(1 point) example 1 for internal consistency
+	(1 point) example 2 for external consistency
+
+
+
+Give examples of wo visual features that influence the perception of hierarchy (2 Points)
+	- Size
+	- Color
+
+
+Kindle Paperwhite
+you are tasked with building a better interface for the kindle Paperwhite
+the device has only a power button, all interactions take place with using a touch screen
+
+develop a basic scenario of dhow this interaction should unfold. What kind of constrains can you use
+to make the usage of this device clear to a novice user.
+
+
+------------------------------------------------------------------------------------------------------
+18 October
+
+what is a model
+a model is a simplification of reality
+  consider the architects model is a description that provides insight into space usage movement of people
+
+
+Modelling interaction
+     descriptive model
+      - using loose verbal analogy an metaphor describe phenomena
+     predictive model
+     - model using closed form mathematical equations predict phenomena
+
+Predictive modelling - Linear regression
+  Basic prediction equation -> a linear relationship Y= mX + C
+  an independent variable ( X )
+  a dependent variable (Y)
+
+
+Buxton three state model
+ Descriptive model
+    a vobaculary to recognize and explore the relationship between pointing device
+     and the interaction techniques they afford
+
+  1) out of range
+  2) tracking
+  3) dragging
+
+
+state machine can be used to model interaction
+
+
+
+Fitts law
+  pointing is communication
+  communication requires labels, identifiers
+  the greater complexity of the identifier, the longer it takes
+
+Exam question
+provie a diagram for the model of human factors during interaction
+
+      HUMAN
+
+
+HUMAN FACTOR
+
+HUMAN-----------------INTERFACE------------------COMPUTER
+     |<----- Sensors <----|---- Displays <----|
+     |			              |
+BRAIN|			              |		                | MACHINE STATE
+     |			              |        		        |
+     |-----> Responders --|---> Controls ---->|
+
+
+describe the four bands of human action, giving an example for each
+  - social band
+  - biological band (10^-4 <-> 10^-2 seconds) neuron, brain
+  - cognitive band (10^-1 <-> 10 seconds) unit tasks, deliberate acts
+  - rational band (10^2 <-> 10^4 seconds) task in general
+
+
+
+
+-----------------------------------------25 october------------------------------------------------
+
+Virtual reality (VR)
+
+3D computer generated display
+inducing targeted behavior by using artificial sensory simulation with little or no awareness of the interference
+
+VR induced motion sickness
+	- Symptoms -> exposure to real and or apparent motion
+	- real motion occurs <- experiencing unusual forces
+	- Resulting in dizziness and nausea
+
+vection
+	- illusion of self motion that is caused by varying visual stimuli -> mismatched cues
+	- Visually induced motion sickness
+	- leads many people to experience sickness symptoms, such as dizziness, nausea and occasionally even vomiting
+
+
+Handedness and interactions
+  - people use hands differently
+  - model of bimanual controls
+  - describing the logic of division of labor
+    - non preferred and preferred
+Guiards model of bimanual control
+	- non preferred hand
+		- leads to preferred hand
+		- sets the spatial frame of reference for the preferred hand
+		- performs coarse movements
+
+	- preferred hand
+		- follows the preferred hand
+		- works within established frame of reference set by the non-preferred hand
+		- performs fine movements
+
+
+Closed loop control
+  - model of human factors during interaction -> Continuous control processing
+  - an interactive system has to ascertain the intention of the user with the minimal effort on the part of the user
+
+
+
+
+role of feedback
+  - control requires feedback
+  - a system without feedback is uncontrollable and unusable
+
+  - the state that is fed back must offer opportunities for action
+
+
+
+Touchscreen
+  - continuous signal from an array of sensors
+  - direct mapping relation of finger to display determines targeting
+    - actually some tweaking goes on, but it is small
+
+  - Control is over visual finger position relative to display
+
+  - Position recovered from sensor "Image"
+
+
+
+What are related to the group project / model view controller (MVC)
+
+Model -> manages data, logic and rules
+View -> represents information as output
+Controller -> receives inputs and control model or view
+
+
+                    |-------------|
+                    |     MODEL   |
+                    |-------------|
+                    /             \
+                   /               \
+                  /                 \
+                 /                   \
+                /                     \
+  |-------------|                      |-------------|
+  |     VIEW    |<-------------------->| CONTROLLER  |
+  |-------------|                      |-------------|
+
+Advantages
+  - backend and frontend can be changed independently (usually people working in frontend are not the same as backend, keep them separate to be happy )
+  - Multiple views can be used with one model showing same data (a chart, a table, etc)
+  - same vie can be reused with other models if they are programmed to an interface
+  - easily change the behavior with another concerns
+
+                    |-> input
+          |->output |
+          |         |
+        |--| |-------|
+  Model View Controller
+  |     |------|-----|
+  |            |
+  |-> Backend  |-> Front end
+
+
+
+
+
+  Exam question -- There are no right or wrong answer, but we have to give a good example
+  What are your assumptions?
+    - You are designing a VR application to sell season tickets at a sports stadium. The application lets potential buyers see what their view would look like at different price Points
+    - By yourself sketch up a quick persona and detail your assumption
+
+Define physical constrains and give an example in the context of an ATM
+- physically restricts which options are available
+
+Given an example of affordance in the context of doors, describe how the design succeeds or fails at communicating affordance
+- handles afford pulling
+- car doors
+
+Describe how constrains are used in interaction design to prevent errors. Provide a specific example, describing the kind of constrains used
+- constrains guide users away from wrong inputs
+- E.G Twitter field has a physical constrain as they only allowed 150 characters entry
+
+Give an example of a constraint that forces desired behavior within an online interface, describing the kind of forcing function used
+  - lock in -> keeps a operation active
+  - save prompt in MS Word
+
+
+
+
+-----------------
+Method / methodology
+methodology is the way an experiment is designed and carried out
+
+sound methodology is critical to allow us to understand what is really going on
+
+Why does this matter
+  - will help you run good studies that leads to good grades in your 3rd year group project and user study in 4th year dissertation
+  - if you want to publish a scientific paper testing hypothesis you need to understand experimental design
+  - Even if you don't end up running studies, you need to know how the data was collected in order to understand how to handle the data
+  - its a good life skill - it gives us extra tools to think critically when you read the latest science story
+
+Experimental design (Example)
+  Best design for text input
+    what are my experimental variables
+      Independent variables - the circumstance that are not dependent to the user
+      *  Also known as factors, experiments with independent variables that are often called factorial experiments
+      *  these can be naturally occurring or directly manipulated by the experimenter
+      *  Characteristics
+          - e.g computer interface - feedback modality, the display size, display type
+          - e.g participants - gender, handedness, expertise
+      *  circumstances
+          - background noise, room lighting
+
+      Good practice to describe Independent Variables both in terms of name of the Characteristics / circumstances
+      and the different levels of that Characteristics / circumstances
+
+      * Example of a Independent Variable : keyboard type
+
+
+      Dependent variables(DV) - the circumstances that are dependent to the user
+      * In HCI the dependent variable is normally measured human behavior. THe measurement depends on what the participant does
+      * Any observable, measurable behavior
+
+      Example of DV:  typing speed
+
+
+
+
+
+
+      Control Variable - the circumstances that we are not investigating but they might influence participant behvaior
+        * Keyboard Angle
+        * Chair Height
+
+        * Experiments control these variables to prevent their influence by setting up their study in a controlled environment and recruiting with a strict inclusion
+
+      Random Variable - the circumstances that we want to control but cannot control
+      Confounding Variable - the circumstances that
+
+
+      Main effect -> when a Independent Variable leads a Dependent Variable
+      Interaction effect -> when the Independent Variables are connected
+
+      1 IV and 1 DV = 1 Main effect
+      2 IV and 1 DV = 3 Main effect
+      2 IV and 2 DV =
+
+      levels and comparison
+      increasing IV quickly accelerate your number of observed effects
+
+
+
+
+
+
+
+
+
+
+Experimental design (Example 2 )
+  What are the factors that lead to a good grade
+    Hypothesis 1: attending classes lead to a higher grade
+    Hypothesis 2: reading leads to a higher grade
+
+    |  Independent variable | Dependent Variable |
+    |       attendance      |       Grade        |
+    |       Reading         |       Grade        |
+
+
+
+
+
+
+`
