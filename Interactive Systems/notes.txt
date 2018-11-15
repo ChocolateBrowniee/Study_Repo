@@ -389,7 +389,7 @@ Give an example of a constraint that forces desired behavior within an online in
 
 
 
------------------
+----------------- 01/11/18---------------------
 Method / methodology
 methodology is the way an experiment is designed and carried out
 
@@ -405,56 +405,114 @@ Experimental design (Example)
   Best design for text input
     what are my experimental variables
       Independent variables - the circumstance that are not dependent to the user
-      *  Also known as factors, experiments with independent variables that are often called factorial experiments
-      *  these can be naturally occurring or directly manipulated by the experimenter
-      *  Characteristics
-          - e.g computer interface - feedback modality, the display size, display type
-          - e.g participants - gender, handedness, expertise
-      *  circumstances
+        *  Also known as factors, experiments with independent variables that are often called factorial experiments
+        *  these can be naturally occurring or directly manipulated by the experimenter
+        *  Characteristics
+            - e.g computer interface - feedback modality, the display size, display type
+            - e.g participants - gender, handedness, expertise
+        *  circumstances
           - background noise, room lighting
 
-      Good practice to describe Independent Variables both in terms of name of the Characteristics / circumstances
-      and the different levels of that Characteristics / circumstances
+          Good practice to describe Independent Variables both in terms of name of the Characteristics / circumstances
+          and the different levels of that Characteristics / circumstances
 
-      * Example of a Independent Variable : keyboard type
+        *   Example of a Independent Variable : keyboard type
 
 
       Dependent variables(DV) - the circumstances that are dependent to the user
-      * In HCI the dependent variable is normally measured human behavior. THe measurement depends on what the participant does
-      * Any observable, measurable behavior
+        * In HCI the dependent variable is normally measured human behavior. THe measurement depends on what the participant does
+        * Any observable, measurable behavior
 
-      Example of DV:  typing speed
+        Example of DV:  typing speed
 
-
-
-
-
-
-      Control Variable - the circumstances that we are not investigating but they might influence participant behvaior
+      Control Variable - the circumstances that we are not investigating but they might influence participant behavior
         * Keyboard Angle
         * Chair Height
 
         * Experiments control these variables to prevent their influence by setting up their study in a controlled environment and recruiting with a strict inclusion
 
       Random Variable - the circumstances that we want to control but cannot control
-      Confounding Variable - the circumstances that
+        * Instead of attempting to control for everything , it is often better to allow some variables to vary randomly to generalize the results and because controlling everything is diffcult
 
+      Confounding Variable - the circumstances that will change systematically with the independent variable
+        * E.G Practice, different types of measurement for level of the IV
+        * Such variables are Confounding because they prevent the possibility of a cause and effect relationship being inferred from the results. So they need to be controlled for. This is a central skill in experimental design
 
       Main effect -> when a Independent Variable leads a Dependent Variable
       Interaction effect -> when the Independent Variables are connected
 
-      1 IV and 1 DV = 1 Main effect
-      2 IV and 1 DV = 3 Main effect
-      2 IV and 2 DV =
 
-      levels and comparison
+      Levels and comparison
       increasing IV quickly accelerate your number of observed effects
 
+            1 IV and 1 DV = 1 Main effects
+            2 IV and 1 DV = 3 Main effects
+            2 IV and 2 DV = 6 Main effects
+
+      Task and procedure
+        Represent
+        have the task representative of what they actually do
+          - external validity -> do differences generalize
+          E.G Keyboard comparison. Have people type the kinds of things they would usually use a keyboard for
+
+        Discriminate
+        The task must be able to discriminate between two levels of the IV otherwise, in a way that allows the hypothesis to be tested
+        Internal validity -> are differences due to the test conditions >
+          E.g Keyboard comparison, dont make the task too easy as people  will have perfect performance no matter what
+
+      Which smartphone text input method is the best
+            - control : Phone type, standing , sitting
+            - Random : Handedness age
+            - confound : experience influencing learning between 1st and 2nd trial
+          what can you do: select only experienced participants? Do training prior to task?
+      Is white text on a black background  easier to read than black text on a white background
+            - control : reading ability
+            - Random : age, height
+            - confound: how easy passages are to read / learning if  same passage for levels of IV
+            what can you do : use passages of equivalent readability
+
+      Participants
+        recruitment methods
+          - Ideal -> participants drawn at random from a population
+              real population -> recruited sample
+          - In practice -> convenience sampling
+              real population -> convenient pop -> recruited sample
+
+        How many partcipants should you recruit
+          - more is better
+            - however there is a balance btweeen representing the population and particial and sometimes ethical considerations
+          - practical
+            - not much time to recruit, population difficult to access, more testing delays product going to market
+          - ethical
+            - study puts particpants under some form of burden.
+          - power analysis
+            - if there is a srudy that used similar thecnique to you to investigate a similar phenomenon you could use those results to predict how many participants you would need to find the effects you expect
+          - central limit theorem
+              - as a sample size increases to above 30
+          - ethics
+              -
+
+          - within or between subjects
+            within
+              - use both keyboards and measure the average difference in performace between the group
+              Advantages
+                - you control for any random differnces between people that may influence the results
+                - fewer participants required
+              Disadvantages
+                - (need to find)
+
+            between
+              Advantages
+                - compare beween your participants category are distinct compairing young and old (e.g)
+                - avoid interference between testing
+              - split the participants into two groups and one group use one keyboard
 
 
-
-
-
+              which smartphone test input is the BEST
+                - within
+                  - experience with phones is controlled for (but not interaction between experience and learning during the ability)
+                - between
+                  - no learning effects but need to recruit 2x  partipants to
 
 
 
@@ -469,8 +527,58 @@ Experimental design (Example 2 )
     |       Reading         |       Grade        |
 
 
+Exam question
+  - fits law is one of the most widely used model in human computer interaction. Give a brief overview of the kind of tasks that fits law models
+    - Fitts Law
+      - Human reaction time
+      - Accuracy of a selection device to select targets on an interface
+
+  - give a graphical overview of the model view controller design pattern
 
 
 
+                                  |-----|
+                                  |     |
+                                  |Model|
+                                  |     |
+                                  |-----|
 
-`
+                      |-----|                  |----------|
+                      |     |                  |          |
+                      |view |                  |CONTROLLER|
+                      |     |                  |          |
+                      |-----|                  |----------|
+
+
+    - describe the two key variables in the fitts law equation that infulence the index of difficulty, discussing how the variable influences the index of difficulty
+        - ID -> Target size , inversely varies to the ID
+        - ID -> Target distance, proportionally influence
+
+----------------
+15 Nov 18
+Order effects
+  - Learning Effects
+    - Order effects are usually a problem because of learning - People's performance on a tasks
+  - Fatigue Effects
+
+
+Dealing with order Effects
+    - Pre training
+        - get the participantued to doing the tasks before starting to collect data
+
+    - Randomization
+        - randomise the order of the conditions for each participant
+          Appropriate when a task is very brief and if there are many repetioions or when there are many test conditions
+    - Counterbalancing
+        - Systematically order the test conditions to offset practice effects. For example, having half the participants use QWERT Keyboard first and use another board first.
+          This gets more complex when there are more IVs and DV to consider
+
+
+Advantages and Disadvantages of within and between
+
+within
+  ADVANTAGE
+    -  no worries about human variability
+    -  fewer participants needed
+  Disadvantages
+    - Experiment Duration (short tast )
