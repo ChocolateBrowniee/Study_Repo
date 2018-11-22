@@ -1,4 +1,4 @@
-`VISUAL DESIGN ISSUES (OBSERVED PATTERNS)
+VISUAL DESIGN ISSUES (OBSERVED PATTERNS)
   PEOPLE NOT SEEING WHAT TO DO
   PEOPLE NOT UNDERSTANDING WHAT THEY SEE
   PEOPLE EXPECTING SOMETHING DIFFERENT THAN WHAT THEY SEE
@@ -405,7 +405,8 @@ Experimental design (Example)
   Best design for text input
     what are my experimental variables
       Independent variables - the circumstance that are not dependent to the user
-        *  Also known as factors, experiments with independent variables that are often called factorial experiments
+        *  Also known as factors, experiments with independent
+         that are often called factorial experiments
         *  these can be naturally occurring or directly manipulated by the experimenter
         *  Characteristics
             - e.g computer interface - feedback modality, the display size, display type
@@ -581,4 +582,193 @@ within
     -  no worries about human variability
     -  fewer participants needed
   Disadvantages
-    - Experiment Duration (short tast )
+    - Experiment Duration (short tasks)
+    - Participants can learn the answers
+    - Order of presention might have an effect
+between
+  ADVANTAGE
+    - no learning
+    - no order effect
+    - complex task
+  Disadvantages
+    - more particpants required
+    - variability is a confounding factor
+
+
+Latin square
+
+          |----------------------------------------------|
+          |Condition 1          | Condition 2            |
+----------|---------------------|------------------------|
+|User 1   |                     |                        |
+|         |                     |                        |
+----------|---------------------|------------------------|
+|User 2   |                     |                        |
+|         |                     |                        |
+----------|---------------------|------------------------|
+
+Balanced IV square -> Balanced if the number of IV are even
+
+
+Counterbalancing
+  so Counterbalancing is easy if you have 2 levels of an IV. If there are more then here would be more variables to consider
+  example
+    - 5 IV would require 5 factorial to have each combination of the IV
+    - 3 IV with 10 participants each would require 60 participants (3*2*1)*10
+
+
+
+
+     |Condition 1|Condition 2|Condition 3|
+  ---|-----------|-----------|-----------|
+  g1 |   3       |     2     |    1      |
+  g2 |   2       |     1     |    3      |
+  g3 |   1       |     3     |    2      |
+
+
+
+Running the experiment
+  - Always pilot your study before running it
+    - many different issues may exists before running
+
+  - Use Consent form
+
+Questionnaire Design
+
+  - Part of most HCI Experiement
+    - Gather information
+    - Solicit participants opinion
+
+  - Avoid biased language
+  - Avoid double question
+  - Use consistent scale
+
+
+  - Primary type of questions
+      - open ended
+      - close ended
+
+
+
+Longitudinal studies
+  - Used in HCI to investigate learning effects over time
+
+Cognitive walkthrough
+    - Used to see the learning ability of the participant
+
+
+
+
+Exam perp
+      ** consider the following scenario. you are completing a evaluation of typing speed using a standard touchscreen keyboard. Participants are asked to ype while using the same keyboard while walking as compared to standing still
+
+      1) IV: INPUT POSITION Walking / standing
+      2) DV: Typing speed / accuracy
+
+      ** if you evaluated the results using fitts law, describe what would you be measuring
+        measure the quality of inputs under different levels of encumbrance
+
+      ** how does the band of human action at each end of the scale impact the research methods needed for evaluation
+        - social band -> qualitative method
+        - other bands -> quantitively method
+
+
+
+------------------------------- 22 Nov 2018--------------------------------------
+qualitative research
+  Field work
+    Human instrument -> ethnographer
+      Working with people in the natural setting
+
+    Naturalist approach -> avoid the artificial response typical of controlled or laboratory conditions
+      Exploring cross checking and recording information
+
+    Participant obeservation
+      - Observing as a participant
+      - participation in the lives of the people
+      - Adequate observation and recording of data
+      - immersion in a culture
+      -
+      in applied settings participant observation is often non-continuous, spread our over an extended time
+
+
+                                                  Knowledge
+                                                  /       \
+                                                 /         \
+                                                /           \
+                                      Participation ------- observation
+
+
+    Data gathering techniques
+      - interviewing
+        -> words and expressions have different values in various cultures
+        -> respect for the culture and the people
+        -> interview types
+            -> structured       |} verbal approximations of a questionnaire -> explicit research goals / agenda
+            -> semi structured  |}
+            -> unstructured     |} Most common in ethnographic work, do not involve any specific types of or order of questions causing  contamination
+      - retrospective interview |}
+
+
+      survey questions
+              - grand tour question to shape and inform a global understanding
+              - specific question to refine and expand understandings of the field work
+                - Opened Ended Questions
+                - Closed ended question
+                - Survey Questions
+
+      Questionnaires -> similar to structured interviews
+                      -> useful fir large scale data collection
+                      -> used to create distance between
+
+
+
+      (first source) key actors / informant
+                      synthesize the fieldworkers oberservations
+
+      (Second Source) project techniques and prototypes
+                        supplement and enhance fieldwork
+
+
+      Qualitative coding
+                        1) open Coding
+                          -> Indentifying
+                          -> Naming
+                          -> Categorizing
+                          -> Describing
+
+                        2) Axial Coding
+                          -> relating codes to each other
+                          -> combination of inductive and deductive thinking
+                          -> Basic frame of generic relationships
+                            - Phenomnon
+                            - Casual conditions
+                            - Context
+                            - Intervening conditions
+                            - Action Strategies
+                            - Consequences
+                        3) Selective coding
+                            - Selecting core concepets
+                            - Relating other categories to the core concepts
+                            - Developing a single storyline
+
+
+
+      Exam questions
+      1)  Consider the following experimental design. Evaluating impact of latency on the usability of soft keyboards
+        participants experience one of the three keyboard designs
+
+        Independent Variables
+          - Level of latency
+        Dependent Variable
+          - Typing speed and error
+
+      2)  discuss a benefit and a detriment of the between subject design of this experiment
+          - (benefit) reduce bias and variability the users might have
+          - (detriment) each user provides limited amount of data and might not be helpful to compare different conditions
+
+      3) Propose an alternative design using a within-subjects designing, including how you would order the conditions
+          - propose within subject, each participant would experience all conditions and must account for Counterbalancing
+
+      4) identify potential issue with this experimental design, What kind of issue it is and how would you correct this issue
+          the order of the snetences is not randomized and would have bias in the dataij
