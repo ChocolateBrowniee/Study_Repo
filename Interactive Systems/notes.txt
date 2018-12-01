@@ -771,4 +771,56 @@ qualitative research
           - propose within subject, each participant would experience all conditions and must account for Counterbalancing
 
       4) identify potential issue with this experimental design, What kind of issue it is and how would you correct this issue
-          the order of the snetences is not randomized and would have bias in the dataij
+          the order of the sentences is not randomized and would have bias in the data
+
+
+
+
+-------------------------- 29 Nov 2018 ---------------------------------
+
+Types of Data
+  1)Quantitate data(Task time , Rating , Scale data)
+    Continuous: Infinite number of steps
+    Discrete: finite values of buckets
+
+  2)Categorical (gender, operating system, country )
+    Can be converted to discrete
+
+Measuring Central Tendency
+  - 5 Score tests
+    -> 91.5, 35.6, 63.8, 100, 75.5
+  Mean - Center of the data
+    Average = 73.28 (sum of the total, divide by the number of the items)
+  Median - Central Value
+    Median = 75.5 (sort the dataset, count the number of items and select the middle value)
+
+
+Central Limit Theorem -> As the sample size approaches infinity, the distribution of sample means
+
+Standard error
+  -> Standard Deviation of distribution of Sample Means
+    -> Take into account the sample size
+    -> Sample Size increases -> Error goes down
+    -> Small dataset can have a high level of error
+
+Hypothesis Testing ( Null Hypothesis -> the hypothesis of no difference )
+  H1 -> Research Hypothesis, Version 2 is significantly better than version 1
+  H0 -> Null Hypothesis, There is no difference between the two Versions
+
+
+Two sample t Test (**** Important****)
+
+Error in Statistical errors
+  - False Positive
+  - False Negative
+
+
+
+
+Exam preperation
+  For questions that require you to gather information for the experiment, ask questions about demographics
+
+
+Describe two key aspects of consent that are required for ethical evaluations. For each aspect, state why this is important for ethical practice
+    - participant give consent freely
+    - participant can withdraw consent 
