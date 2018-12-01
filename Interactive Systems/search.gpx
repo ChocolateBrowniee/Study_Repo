@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPSies https://www.gpsies.com - GPSies Track" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>GPSies Track</name>
+    <link href="https://www.gpsies.com/">
+      <text>GPSies Track on GPSies.com</text>
+    </link>
+    <time>2018-11-29T09:13:30Z</time>
+  </metadata>
+<wpt lat="1.275553228" lon="103.8546352">
+    <ele>18.000000</ele>
+    <name>Marina Bay Singapore Countdown 2019</name>
+    <desc>Immerse in the year-end festivities which stretch across the banks of Marina Bay and the Civic District. Enjoy live performances, pop-up food stalls and other fringe activities during the celebrations. This mega-party will showcase a series of firework displays, culminating in a pyrotechnic extravaganza at midnight.
+
+Date: 31 Dec</desc>
+    <link href="www.marinacountdown.sg">
+      <type>web</type>
+    </link>
+    <sym>generic</sym>
+    <type>Generic</type>
+  </wpt>
+  <wpt lat="1.291004240" lon="103.8454363">
+    <ele>16.000000</ele>
+    <name>Clarke Quay New Year’s Eve Countdown Party</name>
+    <desc>Welcome the new year with the epic party at Clarke Quay Fountain Square, where you can indulge in performances by live bands; admission is free. Extend your night out with the many bars and clubs around Clarke Quay that offer exclusive New Year’s Eve promotions and themed parties.
+
+Date: 31 Dec</desc>
+    <link href="www.clarkequay.com.sg">
+      <type>web</type>
+    </link>
+    <sym>generic</sym>
+    <type>Generic</type>
+  </wpt>
+  
+</gpx>
+
+	
