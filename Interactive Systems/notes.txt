@@ -823,4 +823,13 @@ Exam preperation
 
 Describe two key aspects of consent that are required for ethical evaluations. For each aspect, state why this is important for ethical practice
     - participant give consent freely
-    - participant can withdraw consent 
+    - participant can withdraw consent
+
+
+-------------------- 6 DEC 2018-----------------
+
+
+
+provide wa short overview of how human vision works, detailing the properties of human vision
+  - detecting levels of light visible to the human eye
+  - able to see the frequency of light, intensity, fixation/ saccades 
